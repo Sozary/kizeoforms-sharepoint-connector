@@ -220,7 +220,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Loading.xaml.cs">
+      <DependentUpon>Loading.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Models\Config.cs" />
+    <Compile Include="Start.cs" />
     <Compile Include="Step2.xaml.cs">
       <DependentUpon>Step2.xaml</DependentUpon>
     </Compile>
@@ -248,6 +252,10 @@
     <Compile Include="Step5AddorUpdate.xaml.cs">
       <DependentUpon>Step5AddorUpdate.xaml</DependentUpon>
     </Compile>
+    <Page Include="Loading.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Step1.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

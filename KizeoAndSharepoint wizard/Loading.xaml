@@ -1,0 +1,12 @@
+﻿<Window x:Class="KizeoAndSharepoint_wizard.Loading"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KizeoAndSharepoint_wizard"
+        mc:Ignorable="d"
+        Title="New version downloading" Height="100" Width="300">
+    <Grid Margin="20">
+        <ProgressBar Minimum="0" Maximum="100" Name="dlStatus" Grid.ColumnSpan="2" />
+    </Grid>
+</Window>

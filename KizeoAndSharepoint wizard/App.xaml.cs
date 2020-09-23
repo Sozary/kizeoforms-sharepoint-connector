@@ -13,5 +13,6 @@ namespace KizeoAndSharepoint_wizard
     /// </summary>
     public partial class App : Application
     {
+        Start start = new Start();
     }
 }
